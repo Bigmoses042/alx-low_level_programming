@@ -1,7 +1,3 @@
-/*
- * File: 100-print_comb3.c
- * Auth: Ngwu Chukwudum Moses
- */
 #include <stdio.h>
 #include <stdlib.h>
 /**
