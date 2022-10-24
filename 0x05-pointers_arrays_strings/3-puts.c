@@ -1,17 +1,20 @@
 #include "main.h"
-#include <string.h>
+
 /**
- * _puts - prints a string
- * @str: a stirng
+ * _puts - prints string
+ * @str: string
  * Return: void
  */
+
 void _puts(char *str)
 {
-	unsigned long int i;
+	int i = 0;
 
-	for (i = 0; i < strlen(str); i++)
+	while (str[i] != '\0')
 	{
-		_putchar(str[i]);
+	_putchar(str[i]);
+	i++;
 	}
+
 	_putchar('\n');
 }
