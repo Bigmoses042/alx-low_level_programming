@@ -1,0 +1,1 @@
+gcc -Wall -pedantic -Werror -Wextra 0-isupper.o 1-main.c 0-isupper.o -o 0-isupper.o
